@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+ body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+        }
+         .container {
+            width: 500px;
+            max-width: 95%;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box; 
+			/* ------------- */
+        }
+         h1, h2 {
+            text-align: center;
+        }
+         .playlist {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+		 ul {
+            padding-left: 0;
+            margin: 5px 0;
+        }
+       li {
+            list-style-type: none;
+            margin: 5px 0;
+        }
+		 a {
+            text-decoration-line: none;
+            color: black;
+            font-size: 14px;
+        }
+		 .player_one,
+        .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+        }
+		.player_one video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+		.player_two audio {
+            width: 100%;
+            display: block;
+        }  
+		 .media-card {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+		  .song-name {
+            font-size: 12px;
+            text-align: left;
+            margin: 10px 0 5px;
+        }
